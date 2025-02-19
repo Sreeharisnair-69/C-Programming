@@ -8,7 +8,7 @@ Purpose: Write a program to reverse a string entered by the user without using s
 int main() {
 	char str[20],temp;
 	printf("Enter a string:\n");
-	scanf("%s",str);
+	fgets(str,20,stdin);
 	
 	int i,j,len;
 	for(len=0;str[len]!='\0';len++);
